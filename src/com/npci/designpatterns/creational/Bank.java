@@ -1,5 +1,20 @@
 package com.npci.designpatterns.creational;
 
-public class Bank {
+import java.util.ArrayList;
+import java.util.List;
 
+public class Bank implements Cloneable{
+	private List<String> application;
+	
+	public Bank()
+	{
+		this.application=new ArrayList<>();
+
+	}
+	
+	public Bank(List<String> applications)
+	{
+		this.
+	}
+	
 }
