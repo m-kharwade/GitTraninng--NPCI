@@ -11,6 +11,6 @@ public class Polo extends Vehicle1 {
 
     @Override
     void displayCost() {
-        System.out.println("Cost for Bentley is :" +costOfSpare);
+        System.out.println("Cost for Polo is :" +costOfSpare);
     }
 }
